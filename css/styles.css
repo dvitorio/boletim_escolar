@@ -1,0 +1,43 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.centerColumn{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+}
+
+.blackScreen{
+     background-color: #00000077;
+     width: 100vw;
+     min-height: 100vh;
+}
+
+.general{
+     background-color: #eeeaea;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100vw;
+     height: 100vh;
+}
+
+.boxContainer{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.menu{
+     background-color: #ffffff;
+     width: 30rem;
+     min-height: 20rem;
+}
+
+.menu i{
+     font-size: 1.25rem;
+}
